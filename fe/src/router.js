@@ -20,7 +20,7 @@ const route = new router({
       name: "Home",
       component: Home,
       meta: {
-        public: true, // public => can access those pages without login
+        public: true,
       },
     },
     {
@@ -28,7 +28,7 @@ const route = new router({
       name: "Login",
       component: Login,
       meta: {
-        public: true, // public => can access those pages without login
+        public: true,
       },
     },
     {
@@ -36,7 +36,7 @@ const route = new router({
       name: "Register",
       component: Register,
       meta: {
-        public: true, // public => can access those pages without login
+        public: true,
       },
     },
     {
@@ -44,7 +44,7 @@ const route = new router({
       name: "AddProduct",
       component: addProduct,
       meta: {
-        public: true, // public => can access those pages without login
+        public: true,
       },
     },
     {
@@ -52,7 +52,7 @@ const route = new router({
       name: "product",
       component: product,
       meta: {
-        public: false, // public => can access those pages without login
+        public: false,
       },
     },
     {
@@ -60,7 +60,7 @@ const route = new router({
       name: "updateProduct",
       component: addProduct,
       meta: {
-        public: true, // public => can access those pages without login
+        public: true,
       },
     },
     {
@@ -68,7 +68,7 @@ const route = new router({
       name: "variant",
       component: variant,
       meta: {
-        public: true, // public => can access those pages without login
+        public: true,
       },
     },
     {
@@ -76,7 +76,7 @@ const route = new router({
       name: "AddVariant",
       component: addProductVariant,
       meta: {
-        public: true, // public => can access those pages without login
+        public: true,
       },
     },
     {
@@ -84,7 +84,7 @@ const route = new router({
       name: "updateVariant",
       component: addProductVariant,
       meta: {
-        public: true, // public => can access those pages without login
+        public: true,
       },
     },
   ],
